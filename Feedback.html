@@ -27,9 +27,9 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="./Tarun.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="./Aboutme.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-trophy fa-lg"></span> Achievements</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./Feedback.html"><span class="fa fa-comment fa-lg"></span> Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Aboutme.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Ach.html"><span class="fa fa-trophy fa-lg"></span> Achievements</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./Feedback.html"><span class="fa fa-comment fa-lg"></span> Feedback</a></li>
                 </ul>
             </div>
 
@@ -40,8 +40,9 @@
             <div class="row">
                 <div class="col-12 offset-sm-1 col-sm align-self-center">
                     <p class="p"><b class="b">P.TARUN REDDY</b><br>
-                    Information Technology - 3rd year<br>
-                    Keshav Memorial Institute of Technology,<br>Narayaguda-29.</p>
+                    Bachelor of Tech - 3rd year<br>
+                    Information Technology<br>
+                    Keshav Memorial Institute of Technology,<br>Hyderabad.</p>
                 </div>
             </div>
         </div>
@@ -50,13 +51,13 @@
     <div class="container">
         <div class="row">
             <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="./Tarun.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="./Aboutme.html">About</a></li>
-                <li class="breadcrumb-item"><a href="#">Achievements</a></li>
+                <li class="breadcrumb-item"><a href=./Tarun.html>Home</a></li>
+                <li class="breadcrumb-item"><a href=./Aboutme.html>About</a></li>
+                <li class="breadcrumb-item"><a href=./Ach.html>Achievements</a></li>
                 <li class="breadcrumb-item active">Feedback</li>
             </ol>
             <div class="col-12">
-               <h3>Contact Us</h3>
+               <h3><span class="fa fa-comment fa-lg">Feedback</span></h3>
                <hr>
             </div>
         </div>
@@ -88,51 +89,58 @@
             <div class="row-content row">
                 <div class="col-12 offset-sm-2 col-sm-8">
                     <div class="card-body">
-                        <h3 class="card-header bg-warning text-white"><strong>Give your Feedback</strong></h3>
+                        <h3 class="card-header bg-warning text-white"><strong>Give your Feedback</strong></h3><br>
                         <form id="rating">
-                            <div class="form-group row">
-                                <div class="col-12 col-sm-3 rating">
-                                    <label for="rating"><strong>Rate us</strong></label>
+                            <dl class="row">
+                                <dt class="offset-sm-1 col-sm-2">Rate My Work</dt>
+                                <div class="col-sm-1">
                                 </div>
-                                <div class="col-12 col-sm">
-                                    <label for="one">1</label><input type="radio" class="form-check-inline" name="rating" id="rating">
-                                    <label for="five">5</label><input type="radio" class="form-check-inline" name="rating" id="rating">
-                                    <label for="ten">10</label><input type="radio" class="form-check-inline" name="rating" id="rating">
-                                </div>
-                            </div>
+                                <dd class="col-1"> <input type="radio" name="radio"><label> 1</label></dd>
+                                <dd class="col-1"> <input type="radio" name="radio"><label> 5</label></dd>
+                                <dd class="col-2"> <input type="radio" name="radio"><label>10</label></dd>
+                            </dl>
 
                             <div class="form-group row">
-                                <label for="first" class="col-12 col-sm-3 col-form-label"><strong>First name</strong></label>
-                                <div class="col-12 col-sm-9">
+                                <label for="first" class="col-12 offset-sm-1 col-sm-3 col-form-label"><strong>First name</strong></label>
+                                <div class="col-12 col-sm-7">
                                     <input type="text" class="form-control" name="first" id="first" placeholder="First Name">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="last" class="col-12 col-sm-3 col-form-label"><strong>Last name</strong></label>
-                                <div class="col-12 col-sm-9">
+                                <label for="last" class="col-12 offset-sm-1 col-sm-3 col-form-label"><strong>Last name</strong></label>
+                                <div class="col-12 col-sm-7">
                                     <input type="text" class="form-control" name="last" id="last" placeholder="Last Name">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="Email" class="col-12 col-sm-3 col-form-label"><strong>Email</strong></label>
-                                <div class="col-12 col-sm-9">
-                                    <input type="email" class="form-cotrol" name="email" id="email" placeholder="Abc@gmail.com">
+                                <label for="Email" class="col-12 offset-sm-1 col-sm-3 col-form-label"><strong>Email</strong></label>
+                                <div class="col-12 col-sm-7">
+                                    <input type="email" class="form-cotrol" name="email" id="email" placeholder=" Abc@gmail.com">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="comment" class="col-12 col-sm-3 col-form-label"><strong>Comment</strong></label>
-                                <div class="col-12 col-sm-9">
-                                    <textarea class="form-control" name="comment" id="comment" placeholder="Wirte your comments" rows="10"></textarea>
+                                <label for="comment" class="col-12 offset-sm-1 col-sm-3 col-form-label"><strong>Comment</strong></label>
+                                <div class="col-12 col-sm-7">
+                                    <textarea class="form-control" name="comment" id="comment" placeholder="Give Your Suggestions" rows="10"></textarea>
                                 </div>
                             </div>
 
-                            <div class="form-group col-12 offset-sm-3 col-sm-9">
-                                <button type="submit" class="btn btn-primary"><strong>Submit</strong></button>
+                            <div class="form-group col-12 offset-sm-4 col-sm-7">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block"><strong>Send Feedback</strong></button><br><br><br><br>
                             </div>
                         </form>
+
+                        <div class="form-group row col-12 offset-sm-4 sm-8">
+                                <label for="reaction col-12 col-sm-3 col-form-label"><strong>What's your reaction?</strong></label>
+                                <div class="col-12 col-sm">
+                                    <button class="bt btn btn-group bg-warning" type="submit"><span class="fa fa-smile-o fa-lg"></span></button>
+                                    <button class="bt btn btn-group bg-warning" type="submit"><span class="fa fa-meh-o fa-lg"></span></button>
+                                    <button class="bt btn btn-group bg-warning" type="submit"><span class="fa fa-frown-o fa-lg"></span></button>
+                                </div>
+                            </div>
                     </div>
                 </div>
            </div>
@@ -149,14 +157,16 @@
                         <div>Hig-2, Block-1, Flat-1<br>
                              Sankalpa Residency<br>
                              Street No.6<br>
-                             Baghlingampally,Hyd-44.<br>
+                             Baghlingampally, Hyd-44.<br>
                          </div>
                     </address>
 
                     <contact>
                         <p>
-                            <i class="fa fa-phone fa-lg"></i>: 6305907273<br>
+                            <i class="fa fa-phone fa-lg"></i>: 6305907273
+                            <a class="btn btn-success" href="tel:6305907273"><i class="fa fa-phone fa-lg"></i><strong> Call</strong></a><br>
                             <i class="fa fa-envelope fa-lg"></i>: tarun.reddy6321@gmail.com
+                            <a class="btn btn-danger" href="mailto:tarun.reddy6321@gmail.com"><i class="fa fa-envelope fa-lg"></i><strong> Email</strong></a>
                         </p>
                     </contact>
                 </div>
@@ -164,12 +174,12 @@
                 <div class="col col-sm-3">
                       <div class="text-center">
                         <h5>Follow me here :</h5>
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:tarun.reddy6321@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/tarun.reddy1236"><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-snapchat" href="https://accounts.snapchat.com/accounts/welcome"><i class="fa fa-snapchat fa-lg"></i></a>  
-                        <a class="btn btn-social-icon" href="https://www.pinterest.ca/"><i class="fa fa-pinterest fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" target="_blank" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon" target="_blank" href="mailto:tarun.reddy6321@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/tarun.reddy1236"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-snapchat" target="_blank" href="https://accounts.snapchat.com/accounts/welcome"><i class="fa fa-snapchat fa-lg"></i></a>  
+                        <a class="btn btn-social-icon" target="_blank" href="https://www.pinterest.ca/"><i class="fa fa-pinterest fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin"target="_blank"  href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin fa-lg"></i></a>
                     </div>
                 </div>
             </div>

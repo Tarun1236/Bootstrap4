@@ -25,6 +25,10 @@
 	font-size: 35px;
 }
 
+.bt{
+	border-radius: 50%;
+}
+
 .hey{
 	color: #000000;
 }

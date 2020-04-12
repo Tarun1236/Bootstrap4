@@ -17,18 +17,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height:"30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -41,7 +41,8 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm align-self-center">
+                    <img src="img/logo.png"class="img-fluid">
                 </div>
             </div>
         </div>
@@ -66,23 +67,23 @@
             <div class="col-12 col-sm-4 offset-sm-1">
                    <h5>Our Address</h5>
                     <address style="font-size: 100%">
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
-		              <i class="fa fa-fax"></i>: +852 8765 4321<br>
-		              <i class="fa fa-envelope"></i>:
+                      121, Clear Water Bay Road<br>
+                      Clear Water Bay, Kowloon<br>
+                      HONG KONG<br>
+                      <i class="fa fa-phone"></i>: +852 1234 5678<br>
+                      <i class="fa fa-fax"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope"></i>:
                         <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                   </address>
             </div>
             <div class="col-12 col-sm-6 offset-sm-1">
                 <h5>Map of our Location</h5>
             </div>
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
-                    <a role="button" class="btn btn-primary" href="tel:6305907273"><i class="fa fa-phone"></i> Call</a>
-                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a> 
-                    <a role="button" class="btn btn-success"><i class="fa fa-envelope" href="mailto:confusion@food.net"></i> Email</a>
+                    <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+                    <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Mail</a>
                 </div>
             </div>
         </div>
@@ -99,31 +100,27 @@
                             <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
                         </div>
                     </div>
-
                     <div class="form-group row">
                         <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name"><br>
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
                         </div>
                     </div>
-
                     <div class="form-group row">
                         <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
                         <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                            <input type="tel" class="form-control" id="areacode" name="areaccode" placeholder="Area code">
                         </div>
-                        <div class="col-7 col-md-7">
+                        <div class="col-7 col-7">
                             <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
                         </div>
                     </div>
-
                     <div class="form-group row">
                         <label for="emailid" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
-                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="email"><br>
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
                         </div>
                     </div>
-
                     <div class="form-group row">
                         <div class="col-md-6 offset-md-2">
                             <div class="form-check">
@@ -133,30 +130,27 @@
                                 </label>
                             </div>
                         </div>
-
-                        <div claa="col-md-3 offset-md-1">
+                        <div class="col-md-3 offset-md-1">
                             <select class="form-control">
                                 <option>Tel.</option>
                                 <option>Email</option>
                             </select>
                         </div>
                     </div>
-
-                     <div class="form-group row">
+                    <div class="form-group row">
                         <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12">
+                             </textarea>   
                         </div>
                     </div>
-
-                    <div class="form-group rows">
+                    <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
                             <button type="submit" class="btn btn-primary">
                                 Send Feedback
                             </button>
                         </div>
                     </div>
-
                 </form>
             </div>
              <div class="col-12 col-md">
@@ -171,23 +165,23 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
+                      121, Clear Water Bay Road<br>
+                      Clear Water Bay, Kowloon<br>
+                      HONG KONG<br>
                       <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
                       <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
                       <i class="fa fa-envelope fa-lg"></i>: 
                       <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                   </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
