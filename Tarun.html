@@ -26,7 +26,7 @@
 
 			<div class="collapse navbar-collapse" id="Navbar">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a class="nav-link" href="./Tarun.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+					<li class="nav-item active"><a class="nav-link" href="./Tarun.html"><span class="fa fa-home fa-spin fa-lg"></span> Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="./Aboutme.html"><span class="fa fa-info fa-lg"></span> About</a></li>
 					<li class="nav-item"><a class="nav-link" href="./Ach.html"><span class="fa fa-trophy fa-lg"></span> Achievements</a></li>
 					<li class="nav-item"><a class="nav-link" href="./Feedback.html"><span class="fa fa-comment fa-lg"></span> Feedback</a></li>
@@ -34,10 +34,7 @@
 			</div>		
  		<div>
 	</nav>
-
-	<div id="whatsapp" class="modal fade" role="dialog">
-		
-	</div>
+</div>
 
 
 	<header class="jumbotron" id="Up">
@@ -50,40 +47,12 @@
 					Information Technology<br>
 					Keshav Memorial Institute of Technology,<br>Hyderabad.</p>
 				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col offset-sm-11 col-sm">
- 							<a class="btn btn-success btn-sm nav-link" data-toggle="modal" role="button" data-target="#whatsapp"><span class="fa fa-whatsapp fa-lg"></span> Whatsapp me Here</a>
- 						</div>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 
-		<div id="whatsapp" class="modal fade" role="dialog">
-			<div class="modal-dialog modal-lg" role="content">
-				<div class="modal-content">
-					<div class="modal-header">
-						 <h4><strong>Whatsapp Me</strong></h4>
-						 <button class="close" type="button" data-dismiss="modal">
-						 	&times;
-						 </button>
-					</div>
-					<div class="modal-body">
-						<form>
-							<div class="form-group row">
-								<label for="queries" class="col offset-sm-4 col-sm-4"><strong>Use Whatsapp Only for important queries</strong></label>
-							</div>
-							<div class="form-group row">
-								<input type="checkbox" name="checkbox">
-								<label class="col col-sm-2">I agree to the terms and conditions</label>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
 	</header>
+
 
 	<section class="section">
 		<div class="container">
@@ -110,6 +79,15 @@
 				</div>
 			</div>
 		</div>
+
+			<div class="alert alert-success offset-sm-2 col-sm-8" role="alert">
+            	<h4><span class="fa fa-trophy fa-lg col offset-sm-0 col-sm"><strong> Well, this is what i did using BOOTSTRAP4</strong></span></h4>
+            	 <p class="col offset-sm-1 col-sm-11">This is a demostration, of my Full Stack Web UI Framework Skill</p>
+            	<button class="close" type="button" data-dismiss="alert">
+            		<a href="#" data-toggle="tooltip" title="Close" data-placement="right">&times;</a>
+            	</button>
+            </div>
+
 	</section>
 
 	<footer class="footer">
@@ -131,13 +109,16 @@
 							<a class="btn btn-success" href="tel:6305907273"><i class="fa fa-phone fa-lg"></i><strong> Call</strong></a><br>
 							<i class="fa fa-envelope fa-lg"></i>: tarun.reddy6321@gmail.com
 							<a class="btn btn-danger" href="mailto:tarun.reddy6321@gmail.com"><i class="fa fa-envelope fa-lg"></i><strong> Email</strong></a>
+							<div class="col col-sm-6">
+ 								<a class="btn btn-success btn-block" data-toggle="modal" role="button" data-target="#whatsapp"><span class="fa fa-whatsapp 	fa-lg"></span> Whatsapp me Here</a>
+ 							</div>
 						</p>
 					</contact>
 				</div>
 
-				<div class="col col-sm-3">
+				<div class="col offset-sm-2 col-sm-3">
 					  <div class="text-center">
-					  	<h5>Follow me here :</h5>
+					  	<h5>Connect with me here :</h5>
                         <a class="btn btn-social-icon btn-google" target="_blank" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                         <a class="btn btn-social-icon" target="_blank" href="mailto:tarun.reddy6321@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/tarun.reddy1236"><i class="fa fa-facebook fa-lg"></i></a>
@@ -148,11 +129,47 @@
 				</div>
 			</div>
 
-			        <footer>
-                    	<div class="col offset-sm-11 col-sm-1">
-                    		<a href="#Up" class="btn btn-link"><i class="fa fa-angle-double-up"></i><strong> Move Up</strong></a>
-                    	</div>
-                    </footer>
+	<div id="whatsapp" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><span class="fa fa-whatsapp fa-lg"></span> Whatsapp</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-row">
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> I wont spam message you</label><br><br>
+
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> If i spam message you, legal actions are to be taken against me</label><br><br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <button type="button" class="btn btn-danger btn-sm ml-auto" data-dismiss="modal">Exit</button>
+                            <a target="_blank" class="btn btn-success btn-sm ml-1" role="button" type="submit" href="https://web.whatsapp.com/">Continue</a>
+                            <button type="button" class="btn btn-primary btn-sm disabled ml-2"><span class="fa fa-phone"> Call</span></button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>      
+            <footer>
+                <div class="col offset-sm-11 col-sm-1">
+                    <a href="#Up" class="btn btn-link"><i class="fa fa-angle-double-up"></i><strong> Move Up</strong></a>
+                </div>
+            </footer>
 
 			<div class="row justify-content-center">
 				<p class="c">© Copyright 2020, All Rights Reserved.</p>
@@ -163,5 +180,12 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script>
+			$(document).ready(function()
+			{
+  				$('[data-toggle="tooltip"]').tooltip();
+			});
+		</script>
 </body>
 </html>
