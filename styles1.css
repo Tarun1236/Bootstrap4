@@ -56,12 +56,17 @@
 }
 
 .carousel{
-	background-color: #a6a6a6;
+	background-color: black;
 }
 
 .carousel-inner{
-	width: 350px;
-	height: 300px;
+	width: 900px;
+	height: 650px;
+}
+
+.img{
+	width: 895px;
+	height: 600px;
 }
 
 .carousel-control-next-icon {
