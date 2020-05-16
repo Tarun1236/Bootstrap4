@@ -81,6 +81,10 @@
 	padding: 100px 0px 15px 0px;
 }
 
+.moveup{
+	color: black;
+}
+
 #carouselButton{
 	right: 0px;
 	position: absolute;
